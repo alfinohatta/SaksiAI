@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_knowledge_network"
+        android:title="Knowledge Network"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_copilot"
+        android:title="Compliance Copilot"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_analytics"
+        android:title="Intelligence Analytics"
+        android:icon="@android:drawable/ic_menu_report_details"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_cases"
+        android:title="Decision Intelligence"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_review_queue"
+        android:title="Review Queue"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_simulate_fraud"
+        android:title="Demo: Simulate Fraud"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_simulate_mortgage"
+        android:title="Demo: Simulate Mortgage Mismatch"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_switch_role"
+        android:title="Switch Role (Demo)"
+        app:showAsAction="never" />
+
+</menu>

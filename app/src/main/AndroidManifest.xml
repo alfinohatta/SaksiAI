@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".SaksiApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaksiAI">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EvidenceDetailActivity"
+            android:exported="false"
+            android:label="Evidence Intelligence"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CaptureActivity"
+            android:exported="false"
+            android:label="Capture Intelligence"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ReviewTasksActivity"
+            android:exported="false"
+            android:label="Review Queue"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".KnowledgeNetworkActivity"
+            android:exported="false"
+            android:label="Knowledge Network"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".EntityDetailActivity"
+            android:exported="false"
+            android:label="Entity Intelligence"
+            android:parentActivityName=".KnowledgeNetworkActivity" />
+
+        <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false"
+            android:label="Intelligence Analytics"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CasesActivity"
+            android:exported="false"
+            android:label="Decision Intelligence"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CaseDetailActivity"
+            android:exported="false"
+            android:label="Case Detail"
+            android:parentActivityName=".CasesActivity" />
+
+        <activity
+            android:name=".CopilotActivity"
+            android:exported="false"
+            android:label="Compliance Copilot"
+            android:parentActivityName=".MainActivity" />
+        
+    </application>
+
+</manifest>

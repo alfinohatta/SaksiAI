@@ -1,0 +1,11 @@
+# SaksiAI Enterprise Configuration Template
+# Copy this file to local.properties and fill in your environment details.
+
+# Default: Local Simulation Mode (No external API required)
+API_BASE_URL="https://internal-api.your-org.co.id/v1"
+
+# Database Encryption Key (Required for sovereign tier)
+DB_ENCRYPTION_KEY="your-secure-passphrase-here"
+
+# Path for exporting Decision Intelligence Packages
+EXPORT_PATH="/storage/emulated/0/SaksiAI/AuditPackages"
