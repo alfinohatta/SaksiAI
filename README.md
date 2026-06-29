@@ -169,5 +169,5 @@ SaksiAI is architected with **"Compliance by Design"**:
 - **Graph Integrity:** Periodically monitor the "Orphaned Entities" metric in the Analytics dashboard to prevent data decay.
 
 ---
-**License:** Proprietary — Internal Enterprise Use Only.  
+**License:** See Attached Document.
 **Contact:** SaksiAI Developer Team / Internal IT Support.
